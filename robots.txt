@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://xulab.cc/wp-sitemap.xml
+Sitemap: https://tailong-chen.github.io/xulab-web/wp-sitemap.xml
