@@ -8,7 +8,8 @@
 		<title>Software &#8211; XuLab</title>
 <meta name='robots' content='max-image-preview:large' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+	<link rel='dns-prefetch' href='//1304199935.vod-qcloud.com' />
+	<link rel='preconnect' href='https://1304199935.vod-qcloud.com' />
 <link rel="alternate" type="application/rss+xml" title="XuLab &raquo; Feed" href="https://xulab.cc/feed/" />
 <link rel="alternate" type="application/rss+xml" title="XuLab &raquo; 评论 Feed" href="https://xulab.cc/comments/feed/" />
 <script type="text/javascript">
@@ -481,9 +482,150 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		}
 		
 </style>
-<link rel='stylesheet' id='hestia_fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=3.0.23' type='text/css' media='all' />
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<style id='xulab-software-redesign-css' type='text/css'>
+	body.page-id-158 {
+		--software-ink: #2c2c2c;
+		--software-muted: #777777;
+		--software-border: #e5e5e5;
+		--software-soft: #f7f7f7;
+		--software-accent: #0a0002;
+		background: #ffffff;
+		color: var(--software-ink);
+	}
+	.software-section {
+		padding-bottom: 82px;
+		padding-top: 76px;
+	}
+	.software-project-list {
+		border-top: 1px solid var(--software-border);
+	}
+	.software-project {
+		align-items: center;
+		border-bottom: 1px solid var(--software-border);
+		display: grid;
+		gap: 54px;
+		grid-template-columns: minmax(0, 1fr) minmax(310px, 0.82fr);
+		padding: 54px 0;
+	}
+	.software-project__media {
+		align-items: center;
+		aspect-ratio: 4 / 3;
+		background: var(--software-soft);
+		border: 1px solid #eeeeee;
+		border-radius: 3px;
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		padding: 20px;
+	}
+	.software-project__media img {
+		display: block;
+		height: 100%;
+		max-width: 100%;
+		object-fit: contain;
+		transition: transform 220ms ease;
+		width: 100%;
+	}
+	.software-project:hover .software-project__media img {
+		transform: scale(1.012);
+	}
+	.software-project__index {
+		color: #999999;
+		font-size: 11px;
+		font-weight: 700;
+		letter-spacing: 0;
+		margin: 0 0 10px;
+		text-transform: uppercase;
+	}
+	.software-project h2 {
+		color: var(--software-ink);
+		font-family: "Roboto Slab", Georgia, serif;
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: 0;
+		line-height: 1.3;
+		margin: 0;
+	}
+	.software-project__description {
+		color: var(--software-muted);
+		font-size: 15px;
+		line-height: 1.8;
+		margin: 16px 0 0;
+	}
+	.software-project__tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 7px;
+		list-style: none;
+		margin: 19px 0 0;
+		padding: 0;
+	}
+	.software-project__tags li {
+		background: var(--software-soft);
+		border-radius: 3px;
+		color: #666666;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 1.2;
+		padding: 6px 10px;
+	}
+	.software-project__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 18px;
+		margin-top: 24px;
+	}
+	.software-action {
+		align-items: center;
+		border-bottom: 1px solid #9a9a9a;
+		color: var(--software-accent);
+		display: inline-flex;
+		font-size: 13px;
+		font-weight: 500;
+		gap: 7px;
+		justify-content: center;
+		line-height: 1.4;
+		padding: 0 0 4px;
+		text-decoration: none;
+		transition: border-color 160ms ease, color 160ms ease;
+	}
+	.software-action:hover,
+	.software-action:focus {
+		border-color: var(--software-accent);
+		color: var(--software-accent);
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.software-project__media img {
+			transition: none;
+		}
+	}
+	@media (max-width: 991px) {
+		.software-project {
+			gap: 36px;
+			grid-template-columns: minmax(0, 1fr) minmax(280px, 0.85fr);
+		}
+	}
+	@media (max-width: 767px) {
+		.software-section {
+			padding-bottom: 56px;
+			padding-top: 50px;
+		}
+		.software-project {
+			gap: 25px;
+			grid-template-columns: 1fr;
+			padding: 38px 0;
+		}
+		.software-project__media {
+			grid-row: 1;
+			padding: 14px;
+		}
+		.software-project h2 {
+			font-size: 26px;
+		}
+	}
+</style>
+<script defer type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script defer type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://xulab.cc/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://xulab.cc/wp-json/wp/v2/pages/158" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.7.1" />
 <link rel="canonical" href="https://xulab.cc/software/" />
@@ -527,125 +669,96 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </ul></div>			</div>
 					</nav>
 				</header>
-<div id="primary" class=" page-header header-small" data-parallax="active" ><div class="container"><div class="row"><div class="col-md-10 col-md-offset-1 text-center"><h1 class="hestia-title ">Software</h1></div></div></div><div class="header-filter" style="background-image: url(/wp-content/uploads/2023/05/图片2.png);"></div></div><div class="main ">
-		<div class="blog-post ">
+<div id="primary" class="page-header header-small" data-parallax="active"><div class="container"><div class="row"><div class="col-md-10 col-md-offset-1 text-center"><h1 class="hestia-title">Software</h1></div></div></div><div class="header-filter" style="background-image: url(/wp-content/uploads/2023/05/ff88f3baec6d45609297b1eca4e17d75-scaled.jpg);"></div></div>
+<div class="main">
+	<div class="blog-post">
 		<div class="container">
-			
-
-	<article id="post-158" class="section section-text">
-		<div class="row">
-						<div class="col-md-8 page-content-wrap  col-md-offset-2">
-				
-<p class="has-large-font-size"><strong>4Pi-BRAINSPOT</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="https://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/d147bf455145403725046796435/XsfnjzdEFG4A.png" alt="" /></figure>
-
-
-
-<p>&nbsp;</p>
-
-
-
-<p>4Pi-BRAINSPOT is a toolbox developed for interferometric ultra-high resolution 3D imaging through brain sections. It integrates 4Pi single-molecule nanoscopy with <em>in situ</em> point spread function retrieval through opaque tissue, and supports the 4Pi reconstruction workflow including channel alignment, 4Pi-PSF segmentation, 4Pi <em>in situ</em> PSF retrieval, dynamic model update, 4Pi localization, drift correction, volume alignment, super-resolution image reconstruction, and morphological analysis.</p>
-
-
-
-<p class="has-header-gradient-color has-text-color has-link-color wp-elements-678497d7511539650d6ead8b53020ed1">Link: <a href="https://github.com/XuLab-BIT/4Pi-BRAINSPOT">GitHub &#8211; XuLab-BIT/4Pi-BRAINSPOT</a></p>
-
-
-
-<p class="has-header-gradient-color has-text-color has-link-color wp-elements-108c63e7503c1f388ddbb3c3d6ab5181">Article: <a href="https://www.nature.com/articles/s41467-026-71614-6">Interferometric ultra-high resolution 3D imaging through brain sections</a></p>
-
-<p>&nbsp;</p>
-
-<p class="has-large-font-size"><strong>Super-Resolution Spatiotemporal information integration, SRST</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="https://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/e08ac9ac1397757912192845412/VjCqesao76QA.jpg" alt="" /></figure>
-
-
-
-<p>&nbsp;</p>
-
-
-
-<p>We developed a deep learning-driven approach, termed super-resolution spatiotemporal information integration (SRST), for the precise three-dimensional localization of ultra-high-density molecules.</p>
-
-
-
-<p class="has-header-gradient-color has-text-color has-link-color wp-elements-b9041e089c367df965797a9e0beb6306">Link: <a href="https://github.com/XuLab-BIT/SRST">GitHub &#8211; XuLab-BIT/SRST</a></p>
-
-<p>&nbsp;</p>
-
-<p class="has-large-font-size"><strong>INSPR (<em>in situ</em> PSF retrieval)</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="https://1304199935.vod-qcloud.com/197813d5vodsh1304199935/de13aeb31397757912192729742/FdihrISigawA.png" alt="" /></figure>
-
-
-
-<p>&nbsp;</p>
-
-
-
-<p>INSPR toolbox is developed for both biplane and astigmatism-based setups. It constructs an <em>in situ</em> 3D point spread function (PSF) directly from the obtained single molecule dataset and features an easy-to-use user interface including all steps of 3D single molecule localization from INSPR model generation, pupil-based 3D localization (supporting both GPU with cubic spline implementation and CPU versions), drift correction, volume alignment, to super-resolution image reconstruction. It also contains a small single molecule dataset for users to run as an example.</p>
-
-
-
-<p class="has-header-gradient-color has-text-color has-link-color wp-elements-ddc4e34834653a4f65529a29b6da280b">Link: <a href="https://github.com/HuanglabPurdue/INSPR">GitHub &#8211; HuanglabPurdue/INSPR: in situ PSF retrieval for whole cells and tissues</a></p>
-
-<p>&nbsp;</p>
-
-<p class="has-large-font-size"><strong>Live-SIMBA: an ImageJ plug-in for the universal and accelerated single molecule-guided Bayesian localization super resolution microscopy (SIMBA) method</strong></p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" src="https://1304199935.vod-qcloud.com/197813d5vodsh1304199935/2464f7ad1397757912193472047/DebgeXRwf6IA.jpg" alt="" /></figure></div>
-
-
-<p>&nbsp;</p>
-
-
-
-<p>We propose a universal and accelerated SIMBA ImageJ plug-in, Live-SIMBA, for time-series analysis in living cells. Live-SIMBA circumvents the requirement of dual-channel dataset using intensity-based sampling algorithm and improves the computing speed using multi-core parallel computing technique.</p>
-
-
-
-<p class="has-header-gradient-color has-text-color has-link-color wp-elements-35a3038227c3ddba32a966c82357fd7e">Link: <a href="https://figshare.com/articles/software/Live_SIMBA_Software/12979535/3?file=24727496">Live_SIMBA Software</a></p>
-
-<p>&nbsp;</p>
-
-<p class="has-large-font-size"><strong>DLBI: Deep learning guided Bayesian inference for structure reconstruction of super-resolution fluorescence microscopy</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="https://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/26aac9cd1397757912193567132/iV1QCPB3hAUA.png" alt="" /></figure>
-
-
-
-<p>&nbsp;</p>
-
-
-
-<p>Here, we propose a novel deep learning guided Bayesian inference (DLBI) approach, for the time-series analysis of high-density fluorescent images. Our method combines the strength of deep learning and statistical inference, where deep learning captures the underlying distribution of the fluorophores that are consistent with the observed time-series fluorescent images by exploring local features and correlation along time-axis, and statistical inference further refines the ultrastructure extracted by deep learning and endues physical meaning to the final image.</p>
-
-
-
-<p>Link: <a href="https://github.com/liyu95/DLBI">GitHub &#8211; liyu95/DLBI: DLBI: Deep learning guided Bayesian inference for structure reconstruction of super-resolution fluorescence microscopy</a></p>
-
-
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>			</div>
+			<main class="section section-text software-section">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="software-project-list">
+				<article class="software-project" id="brainspot">
+					<div class="software-project__media">
+						<img decoding="async" fetchpriority="high" src="https://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/d147bf455145403725046796435/XsfnjzdEFG4A.png" alt="4Pi-BRAINSPOT reconstruction workflow preview" />
 					</div>
-	</article>
+					<div class="software-project__body">
+						<p class="software-project__index">01 / 4PI NANOSCOPY</p>
+						<h2>4Pi-BRAINSPOT</h2>
+						<p class="software-project__description">A toolbox for interferometric ultra-high resolution 3D imaging through brain sections. It integrates 4Pi single-molecule nanoscopy with <em>in situ</em> PSF retrieval and supports the full reconstruction workflow, from channel alignment and localization to drift correction, volume alignment, image reconstruction, and morphological analysis.</p>
+						<ul class="software-project__tags" aria-label="4Pi-BRAINSPOT topics"><li>3D imaging</li><li>PSF retrieval</li><li>Reconstruction</li></ul>
+						<div class="software-project__actions">
+							<a class="software-action software-action--primary" href="https://github.com/XuLab-BIT/4Pi-BRAINSPOT" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub repository</a>
+							<a class="software-action software-action--secondary" href="https://www.nature.com/articles/s41467-026-71614-6" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Read article</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="software-project" id="srst">
+					<div class="software-project__media">
+						<img decoding="async" loading="lazy" src="https://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/e08ac9ac1397757912192845412/VjCqesao76QA.jpg" alt="SRST three-dimensional localization preview" />
+					</div>
+					<div class="software-project__body">
+						<p class="software-project__index">02 / DEEP LOCALIZATION</p>
+						<h2>SRST</h2>
+						<p class="software-project__description">Super-resolution spatiotemporal information integration is a deep learning-driven approach for precise three-dimensional localization of ultra-high-density molecules.</p>
+						<ul class="software-project__tags" aria-label="SRST topics"><li>Deep learning</li><li>3D localization</li><li>High density</li></ul>
+						<div class="software-project__actions">
+							<a class="software-action software-action--primary" href="https://github.com/XuLab-BIT/SRST" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub repository</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="software-project" id="inspr">
+					<div class="software-project__media">
+						<img decoding="async" loading="lazy" src="https://1304199935.vod-qcloud.com/197813d5vodsh1304199935/de13aeb31397757912192729742/FdihrISigawA.png" alt="INSPR point spread function retrieval interface" />
+					</div>
+					<div class="software-project__body">
+						<p class="software-project__index">03 / IN SITU PSF</p>
+						<h2>INSPR</h2>
+						<p class="software-project__description">INSPR constructs an <em>in situ</em> 3D PSF directly from single-molecule data for biplane and astigmatism-based setups. Its interface covers model generation, CPU or GPU localization, drift correction, volume alignment, and super-resolution reconstruction.</p>
+						<ul class="software-project__tags" aria-label="INSPR topics"><li>PSF retrieval</li><li>SMLM</li><li>CPU and GPU</li></ul>
+						<div class="software-project__actions">
+							<a class="software-action software-action--primary" href="https://github.com/HuanglabPurdue/INSPR" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub repository</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="software-project" id="live-simba">
+					<div class="software-project__media">
+						<img decoding="async" loading="lazy" src="https://1304199935.vod-qcloud.com/197813d5vodsh1304199935/2464f7ad1397757912193472047/DebgeXRwf6IA.jpg" alt="Live-SIMBA ImageJ plugin preview" />
+					</div>
+					<div class="software-project__body">
+						<p class="software-project__index">04 / LIVE-CELL ANALYSIS</p>
+						<h2>Live-SIMBA</h2>
+						<p class="software-project__description">An accelerated ImageJ plug-in for time-series analysis in living cells. Live-SIMBA removes the dual-channel requirement through intensity-based sampling and improves computing speed with multi-core parallel processing.</p>
+						<ul class="software-project__tags" aria-label="Live-SIMBA topics"><li>ImageJ</li><li>Live cell</li><li>Time series</li></ul>
+						<div class="software-project__actions">
+							<a class="software-action software-action--primary" href="https://figshare.com/articles/software/Live_SIMBA_Software/12979535/3?file=24727496" target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i> Download on Figshare</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="software-project" id="dlbi">
+					<div class="software-project__media">
+						<img decoding="async" loading="lazy" src="https://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/26aac9cd1397757912193567132/iV1QCPB3hAUA.png" alt="DLBI super-resolution structure reconstruction preview" />
+					</div>
+					<div class="software-project__body">
+						<p class="software-project__index">05 / BAYESIAN RECONSTRUCTION</p>
+						<h2>DLBI</h2>
+						<p class="software-project__description">Deep learning guided Bayesian inference combines learned local and temporal features with statistical refinement for structure reconstruction from high-density, time-series fluorescence microscopy data.</p>
+						<ul class="software-project__tags" aria-label="DLBI topics"><li>Bayesian inference</li><li>Deep learning</li><li>Time series</li></ul>
+						<div class="software-project__actions">
+							<a class="software-action software-action--primary" href="https://github.com/liyu95/DLBI" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub repository</a>
+						</div>
+					</div>
+				</article>
+						</div>
+					</div>
+				</div>
+			</main>
 		</div>
 	</div>
+</div>
 						<footer class="footer footer-black footer-big">
 						<div class="container">
 																<div class="hestia-bottom-footer-content"><ul id="menu-primary-menu-1" class="footer-menu hestia-center"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="https://xulab.cc/">HOME</a></li>
@@ -664,13 +777,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 .wp-elements-678497d7511539650d6ead8b53020ed1 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--header-gradient);}.wp-elements-108c63e7503c1f388ddbb3c3d6ab5181 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--header-gradient);}.wp-elements-b9041e089c367df965797a9e0beb6306 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--header-gradient);}.wp-elements-ddc4e34834653a4f65529a29b6da280b a:where(:not(.wp-element-button)){color:var(--wp--preset--color--header-gradient);}.wp-elements-35a3038227c3ddba32a966c82357fd7e a:where(:not(.wp-element-button)){color:var(--wp--preset--color--header-gradient);}
 </style>
 <script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
-<script type="text/javascript" src="/wp-content/themes/hestia-pro/assets/bootstrap/js/bootstrap.min.js?ver=1.0.2" id="jquery-bootstrap-js"></script>
-<script type="text/javascript" src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script defer type="text/javascript" src="/wp-content/themes/hestia-pro/assets/bootstrap/js/bootstrap.min.js?ver=1.0.2" id="jquery-bootstrap-js"></script>
+<script defer type="text/javascript" src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
 <script type="text/javascript" id="hestia_scripts-js-extra">
 /* <![CDATA[ */
 var requestpost = {"ajaxurl":"\/wp-admin\/admin-ajax.php","disable_autoslide":"","masonry":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/wp-content/themes/hestia-pro/assets/js/script.min.js?ver=3.0.23" id="hestia_scripts-js"></script>
+<script defer type="text/javascript" src="/wp-content/themes/hestia-pro/assets/js/script.min.js?ver=3.0.23" id="hestia_scripts-js"></script>
 </body>
 </html>
