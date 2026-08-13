@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "statement": [
+    {
+      "effect": "allow",
+      "action": [
+        "name/cos:GetBucket"
+      ],
+      "resource": [
+        "qcs::cos:ap-hongkong:uid/1304199935:xulab-1304199935"
+      ]
+    },
+    {
+      "effect": "allow",
+      "action": [
+        "name/cos:PutObject",
+        "name/cos:DeleteObject"
+      ],
+      "resource": [
+        "qcs::cos:ap-hongkong:uid/1304199935:xulab-1304199935/*"
+      ]
+    },
+    {
+      "effect": "allow",
+      "action": [
+        "name/cdn:PurgePathCache"
+      ],
+      "resource": [
+        "*"
+      ]
+    }
+  ]
+}
