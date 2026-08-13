@@ -129,8 +129,11 @@ def list_remote_objects(client, bucket: str, prefix: str) -> dict[str, str]:
         response = client.list_objects(Bucket=bucket, Prefix=prefix, Marker=marker, MaxKeys=1000)
         for item in response.get("Contents", []):
             objects[item["Key"]] = item.get("ETag", "").strip('"')
-        if not response.get("IsTruncated"):
+        is_truncated = response.get("IsTruncated", False)
+        if is_truncated in {False, None, 0, "0", "false", "False"}:
             break
+        if is_truncated not in {True, 1, "1", "true", "True"}:
+            raise RuntimeError(f"COS returned an invalid IsTruncated value: {is_truncated!r}")
         marker = response.get("NextMarker", "")
         if not marker:
             raise RuntimeError("COS returned a truncated listing without NextMarker")
